@@ -10,6 +10,7 @@ The dataset used in this project is:
 
 The goal is to clean the data and answer business questions using the available sales and transaction information.
 
+![Executive Dashboard](dashboard.png)
 ---
 
 ## 🛠️ Tools Used
@@ -168,4 +169,3 @@ January (117,123.21 EGP)
 ---
 ### Business Impact
 Using the Dashboard made with Matplotlib made it easier to extract visions and future preditions
-![Executive Dashboard](dashboard.png)
