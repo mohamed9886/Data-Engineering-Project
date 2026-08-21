@@ -32,8 +32,8 @@ The following data-cleaning steps were performed:
 * Sorted the data
 * Create 3 columns (Day, Month, Year )
 * Created the `Satisfaction` column based on the rating
-**Intelligently handled missing values by mathematically deriving missing `Unit_Price` and `Sales` data from the `Tax` and `Quantity` columns.**
-**Standardized string formatting across all text columns (stripped whitespace, applied Title Case).**
+* **Intelligently handled missing values by mathematically deriving missing `Unit_Price` and `Sales` data from the `Tax` and `Quantity` columns.**
+* **Standardized string formatting across all text columns (stripped whitespace, applied Title Case).**
 
 
 
@@ -50,7 +50,7 @@ The following data-cleaning steps were performed:
 
 **Result:**
 
-325,895.23 EGP
+Total Revenue is : 325,895.23 EGP
 
 ---
 
@@ -58,15 +58,15 @@ The following data-cleaning steps were performed:
 
 **Highest Revenue City:**
 
-Best selling city is : Naypyitaw with revenue of 111745.7945 EGP
+Best selling city is : **Naypyitaw** with revenue of 111745.7945 EGP
 
-**Result / Screenshot:**
+**Result:**
 
-city revenue 
-City
-Mandalay     106602.3390
-Naypyitaw    111745.7945
-Yangon       107547.0965
+| City | Revenue (EGP) |
+| :--- | :--- |
+| **Naypyitaw** | **111,745.79**|
+| Mandalay| 106,602.33 |
+| Yangon    | 107,547.09 |
 
 ---
 
@@ -74,14 +74,20 @@ Yangon       107547.0965
 
 **Most Profitable Branch:**
 
-Best selling Branch is : Giza with profit of 5265.1765 EGP
+Best selling Branch is : **Giza** with profit of 5265.1765 EGP
 
-**Result / Screenshot:**
+**Result:**
 Branch profit 
 Branch
 Alex     5057.1605
 Cairo    5057.0320
 Giza     5265.1765
+
+| Branch | Profit (EGP) |
+| :--- | :--- |
+| **Giza** | **5,265.1765**|
+| Alex| 5,057.16 |
+| Cairo | 5,057.03 |
 
 ---
 
@@ -89,37 +95,30 @@ Giza     5265.1765
 
 **Top-Performing Category:**
 
-Best profit Product Line is : Food And Beverages with profit of 2673.564 EGP
-Best revenue Product Line is : Food And Beverages with profit of 56562.06 EGP
+Best profit Product Line is : **Food And Beverages** with profit of 2673.564 EGP
 
-**Result / Screenshot:**
+Best revenue Product Line is : **Food And Beverages** with profit of 56562.06 EGP
 
-Product          |          revenue
-Product_Line
-Electronic Accessories    54738.0555
-Fashion Accessories       54731.8500
-Food And Beverages        56562.0600
-Health And Beauty         49564.8250
-Home And Lifestyle        54544.3290
-Sports And Travel         55754.1105
-==============
-Product profit
-Product_Line
-Electronic Accessories    2587.5015
-Fashion Accessories       2585.9950
-Food And Beverages        2673.5640
-Health And Beauty         2342.5590
-Home And Lifestyle        2564.8530
-Sports And Travel         2624.8965
-
+**Result:**
+| Product Category | Total Revenue (EGP) | Total Profit (EGP) |
+| :--- | :--- | :--- |
+| **Food and Beverages** | **56,562.06** | **2,673.56** |
+| Sports and Travel | 55,754.11 | 2,624.90 |
+| Electronic Accessories | 54,738.06 | 2,587.50 |
+| Fashion Accessories | 54,731.85 | 2,586.00 |
+| Home and Lifestyle | 54,544.33 | 2,564.85 |
+| Health and Beauty | 49,564.83 | 2,342.56 |
 
 ---
 
 ### 5. Spending by Customer Type
 
 **Customer Type That Spends More:**
+
 Member
+
 **Total Spend:** 
+
 192,623.25 EGP *(Compared to Normal customers at 133,271.99 EGP)*
 
 ---
@@ -128,6 +127,7 @@ Member
 
 **Most Popular Payment Method:**
 E-Wallet (345 transactions)
+
 Followed closely by Cash (344) and Credit Card (311)
 
 ---
@@ -166,3 +166,4 @@ January (117,123.21 EGP)
 50.1%
 
 ---
+![alt text](image.png)
