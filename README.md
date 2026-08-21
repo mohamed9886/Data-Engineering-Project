@@ -16,9 +16,7 @@ The goal is to clean the data and answer business questions using the available 
 
 * Python
 * Pandas
-* Matplotlib / Seaborn (Optional)
-* Streamlit (Optional)
-
+* Matplotlib & Seaborn (Custom Dashboard UI)
 ---
 
 ## 🧹 Data Cleaning
@@ -33,7 +31,12 @@ The following data-cleaning steps were performed:
 * Corrected data types
 * Sorted the data
 * Create 3 columns (Day, Month, Year )
-* Created the `satisfied` column based on the rating
+* Created the `Satisfaction` column based on the rating
+**Intelligently handled missing values by mathematically deriving missing `Unit_Price` and `Sales` data from the `Tax` and `Quantity` columns.**
+**Standardized string formatting across all text columns (stripped whitespace, applied Title Case).**
+
+
+
 
 **Satisfaction Rule:**
 
@@ -47,7 +50,7 @@ The following data-cleaning steps were performed:
 
 **Result:**
 
-> Update with your result. for example ![Revenue by City](images/revenue_by_city.png)
+325,895.23 EGP
 
 ---
 
@@ -55,11 +58,15 @@ The following data-cleaning steps were performed:
 
 **Highest Revenue City:**
 
-> Update with your result.
+Best selling city is : Naypyitaw with revenue of 111745.7945 EGP
 
 **Result / Screenshot:**
 
-> Add your table or image here.
+city revenue 
+City
+Mandalay     106602.3390
+Naypyitaw    111745.7945
+Yangon       107547.0965
 
 ---
 
@@ -67,11 +74,14 @@ The following data-cleaning steps were performed:
 
 **Most Profitable Branch:**
 
-> Update with your result.
+Best selling Branch is : Giza with profit of 5265.1765 EGP
 
 **Result / Screenshot:**
-
-> Add your table or image here.
+Branch profit 
+Branch
+Alex     5057.1605
+Cairo    5057.0320
+Giza     5265.1765
 
 ---
 
@@ -79,27 +89,46 @@ The following data-cleaning steps were performed:
 
 **Top-Performing Category:**
 
-> Update with your result.
+Best profit Product Line is : Food And Beverages with profit of 2673.564 EGP
+Best revenue Product Line is : Food And Beverages with profit of 56562.06 EGP
 
 **Result / Screenshot:**
 
-> Add your table or image here.
+Product          |          revenue
+Product_Line
+Electronic Accessories    54738.0555
+Fashion Accessories       54731.8500
+Food And Beverages        56562.0600
+Health And Beauty         49564.8250
+Home And Lifestyle        54544.3290
+Sports And Travel         55754.1105
+==============
+Product profit
+Product_Line
+Electronic Accessories    2587.5015
+Fashion Accessories       2585.9950
+Food And Beverages        2673.5640
+Health And Beauty         2342.5590
+Home And Lifestyle        2564.8530
+Sports And Travel         2624.8965
+
 
 ---
 
 ### 5. Spending by Customer Type
 
 **Customer Type That Spends More:**
-
-> Update with your result.
+Member
+**Total Spend:** 
+192,623.25 EGP *(Compared to Normal customers at 133,271.99 EGP)*
 
 ---
 
 ### 6. Payment Method
 
 **Most Popular Payment Method:**
-
-> Update with your result.
+E-Wallet (345 transactions)
+Followed closely by Cash (344) and Credit Card (311)
 
 ---
 
@@ -107,7 +136,7 @@ The following data-cleaning steps were performed:
 
 **Average Transaction Value:**
 
-> Update with your result.
+325.90 EGP
 
 ---
 
@@ -115,7 +144,7 @@ The following data-cleaning steps were performed:
 
 **Branch with the Highest Satisfaction:**
 
-> Update with your result.
+Alex (52.65% of customers satisfied)
 
 ---
 
@@ -123,18 +152,17 @@ The following data-cleaning steps were performed:
 
 **Highest Sales Day:**
 
-> Update with your result.
+Saturday (56,127.53 EGP)
 
 **Highest Sales Month:**
 
-> Update with your result.
+January (117,123.21 EGP)
 
 ---
 
 ### 10. Overall Customer Satisfaction
 
 **Overall Satisfaction Percentage:**
-
-> Update with your result.
+50.1%
 
 ---
