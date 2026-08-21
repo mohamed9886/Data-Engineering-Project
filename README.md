@@ -166,4 +166,6 @@ January (117,123.21 EGP)
 50.1%
 
 ---
-![alt text](image.png)
+### Business Impact
+Using the Dashboard made with Matplotlib made it easier to extract visions and future preditions
+![Executive Dashboard](dashboard.png)
